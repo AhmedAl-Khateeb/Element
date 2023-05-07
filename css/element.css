@@ -1,0 +1,1378 @@
+
+/*==================Start header===========*/
+.container-fluid{
+    box-shadow: 0px 0px 10px 0px black;
+    position: fixed;
+    background-color:#807e7e;
+}
+.navbar {
+    background-color: white;
+}
+
+.navbar .navbar-brand{
+    color: black;
+}
+
+.navbar .navbar-brand img{
+    width: 60%;
+}
+
+.navbar li .nav-link{
+    color: darkred;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+.navbar li .nav-link:hover{
+    color: navy;
+}
+
+.navbar-brand img{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+/*finish============== header*/
+/*============Start Slider====*/
+#home .slider{
+    width: 100%;
+    height: 75vh;
+    background-image: url(../imegs/p22.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#home .slider .carousel-inner {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  top: 200px;
+  color: white;
+}
+
+#home .slider .carousel-inner .btn{
+ margin: 0px 5px;
+ border: 1px solid white;
+ background-color: white;
+ color: darkblue;
+ width: 10%;
+ height: 20%;
+ font-weight: bold;
+ font-style: italic;
+}
+
+#home .slider .carousel-inner .btn:hover{
+    color: white;
+    background-color: darkred;
+}
+/*============Finish Slider====*/
+
+/* <!-- Start About --> */
+#about{
+    width: 100%;
+    height: 100vh;
+}
+#about .text-center img{
+    width:40%;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+#about .text-center .btn{
+    margin: 0px 5px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    background-color:blueviolet;
+    color: white;
+    width: 10%;
+    height: 25%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#about .text-center .btn:hover{
+    background-color: black;
+    color: white;
+}
+/* <!-- Finish About --> */
+/* <!-- Start SERVICES --> */
+#SERVICES{
+    width: 100%;
+    height: 50%;
+    background-color:seashell;
+}
+
+#SERVICES .text-center{
+  padding-top: 25px;
+}
+
+
+.perant{
+    display: flex;
+    justify-content: space-around;
+}
+
+.child{
+    display: inline-block;
+    width: 30%;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+.perant .child .text-center{
+    margin-top: 50px;
+} 
+/* <!-- Finish SERVICES --> */
+
+
+/*==============Start Contact===========*/
+
+
+
+.contact_section{
+    width: 100%;
+    float: left;
+}
+
+.contact_main{
+    width: 100%;
+    float: left;
+    background-color: #4323b1;
+    height: auto;
+    padding: 40px;
+}
+
+.contact_text {
+   width: 100%;
+   float: left;
+   font-size: 40px;
+   text-align: center;
+   color: #282828;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.mail_text {
+   width: 100%;
+   float: left;
+   font-size: 16px;
+   color: #807e7e;
+   background-color: #ffffff;
+   padding: 10px 15px;
+   margin-bottom: 20px;
+   border: 0px;
+}
+
+.massage_text {
+   width: 100%;
+   float: left;
+   font-size: 16px;
+   color: #807e7e;
+   background-color: #ffffff;
+   padding: 35px 15px 0px 15px;
+   margin-bottom: 20px;
+   border: 0px;
+   height: 100px;
+}
+
+.send_bt {
+   width: 30%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.send_text {
+   width: 100%;
+   float: left;
+}
+
+.send_text a:hover {
+   color: #000;
+   background-color: #ffffff;
+}
+.send_text a {
+   width: 100%;
+   float: left;
+   text-align: center;
+   font-size: 18px;
+   color: #ffffff;
+   background-color: #8929cf;
+   padding: 10px 0px;
+   margin-top: 40px;
+}
+
+.nice-select {
+   width: 100%;
+   margin-bottom: 20px;
+   font-size: 16px;
+   font-weight: 400;
+   color: #807e7e;
+   padding-left: 15px;
+}
+
+.contact_bg {
+   width: 100%;
+   float: left;
+   padding-top: 50px;
+}
+
+.client_section{
+    width: 100%;
+    float: left;
+}
+
+.client_text{
+    width: 100%;
+    float: left;
+    font-size: 26px;
+    text-align: center;
+    color: #282828;
+    font-style: italic;
+}
+
+
+.ipsum_text_2 {
+    width: 65%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #030000;
+    text-align: center;
+    font-style: italic;
+    padding-top: 60px;
+}
+
+.client_section_2{
+     width: 100%;
+     float: left;
+}
+
+.icon_4 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+select{
+     width: 100%;
+     padding-bottom: 20px;    
+}
+
+textarea{
+    margin-top: 20px;
+}
+/*==============Finish Contact===========*/
+/* <!--Start Clients--> */
+.container{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer_section{
+    background-color:#8929cf;
+    display: flex;
+    justify-content: center;
+     text-align: center;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.footer_section .input-group{
+    width: 50%;
+    padding-top: 60px;
+    margin-left: 250px;
+}
+
+.input-group-text{
+    font-weight: bold;
+    background-color: cadetblue;
+    color: maroon;
+    border: 1px solid maroon;
+    border-radius: 25px;
+}
+
+
+.year_text{
+    width: 100%;
+    float: left;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    color: #fefeff;    
+}
+
+
+.landing_text{
+    width: 100%;
+    float: left;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    color: #fefeff;
+}
+
+.social_icon {
+   width: 27%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.social_icon ul{
+    margin: 0px;
+    padding: 0px; 
+    list-style-type: none;
+}
+
+.social_icon li{
+    float: left;
+    padding: 40px 10px 10px 10px;
+}
+
+
+
+.copyright_section{
+    width: 100%;
+    float: left;
+    background-color: #fff;
+}
+
+.copyright_text{
+    text-align: center;
+    color: #040404;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.copyright a {
+    color: #040404;
+}
+/* <!--Finish Clients--> */
+
+
+
+
+
+
+/*=========Media Screen==============*/
+
+/*===Large Screen=============*/
+@media(max-width:1200px) {
+
+/*==================Start header===========*/
+.container-fluid{
+    box-shadow: 0px 0px 10px 0px black;
+    position: fixed;
+    background-color:#807e7e;
+}
+.navbar {
+    background-color: white;
+}
+
+.navbar .navbar-brand{
+    color: black;
+}
+
+.navbar .navbar-brand img{
+    width: 60%;
+}
+
+.navbar li .nav-link{
+    color: darkred;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+.navbar li .nav-link:hover{
+    color: navy;
+}
+
+.navbar-brand img{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+/*finish============== header*/
+/*============Start Slider====*/
+#home .slider{
+    width: 100%;
+    height: 75vh;
+    background-image: url(../imegs/p22.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#home .slider .carousel-inner {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  top: 200px;
+  color: white;
+}
+
+#home .slider .carousel-inner .btn{
+ margin: 0px 5px;
+ border: 1px solid white;
+ background-color: white;
+ color: darkblue;
+ width: 10%;
+ height: 20%;
+ font-weight: bold;
+ font-style: italic;
+}
+
+#home .slider .carousel-inner .btn:hover{
+    color: white;
+    background-color: darkred;
+}
+/*============Finish Slider====*/
+
+/* <!-- Start About --> */
+#about{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+}
+#about .text-center img{
+    width:39%;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+#about .text-center .btn{
+    margin: 0px 5px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    background-color:blueviolet;
+    color: white;
+    width: 10%;
+    height: 25%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#about .text-center .btn:hover{
+    background-color: black;
+    color: white;
+}
+/* <!-- Finish About --> */
+/* <!-- Start SERVICES --> */
+#SERVICES{
+    width: 90%;
+    height: 50%;
+    background-color:seashell;
+    margin: auto;
+}
+
+#SERVICES .text-center{
+  padding-top: 25px;
+}
+
+
+.perant{
+    display: flex;
+    justify-content: space-around;
+}
+
+.child{
+    display: inline-block;
+    width: 30%;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+.perant .child .text-center{
+    margin-top: 50px;
+} 
+/* <!-- Finish SERVICES --> */
+
+
+/*==============Start Contact===========*/
+
+
+
+.contact_section{
+    width: 100%;
+    margin: auto;
+    float: left;
+}
+
+.contact_main{
+    float: left;
+    background-color: #4323b1;
+    height: auto;
+    padding: 40px;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.contact_text {
+   width: 100%;
+   float: left;
+   margin-left: 25px;
+   font-size: 40px;
+   text-align: center;
+   color: #282828;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.mail_text {
+   width: 100%;
+   float: left;
+   font-size: 16px;
+   color: #807e7e;
+   background-color: #ffffff;
+   padding: 10px 15px;
+   margin-bottom: 20px;
+   border: 0px;
+}
+
+.massage_text {
+   width: 100%;
+   float: left;
+   font-size: 16px;
+   color: #807e7e;
+   background-color: #ffffff;
+   padding: 35px 15px 0px 15px;
+   margin-bottom: 20px;
+   border: 0px;
+   height: 100px;
+}
+
+.send_bt {
+   width: 30%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.send_text {
+   width: 100%;
+   float: left;
+}
+
+.send_text a:hover {
+   color: #000;
+   background-color: #ffffff;
+}
+.send_text a {
+   width: 100%;
+   float: left;
+   text-align: center;
+   font-size: 18px;
+   color: #ffffff;
+   background-color: #8929cf;
+   padding: 10px 0px;
+   margin-top: 40px;
+}
+
+.nice-select {
+   width: 100%;
+   margin-bottom: 20px;
+   font-size: 16px;
+   font-weight: 400;
+   color: #807e7e;
+   padding-left: 15px;
+}
+
+.contact_bg {
+   width: 70%;
+   float: left;
+   padding-top: 50px;
+}
+
+.client_section{
+    width: 100%;
+    float: left;
+}
+
+.client_text{
+    width: 100%;
+    float: left;
+    font-size: 26px;
+    text-align: center;
+    color: #282828;
+    font-style: italic;
+}
+
+
+.ipsum_text_2 {
+    width: 65%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #030000;
+    text-align: center;
+    font-style: italic;
+    padding-top: 60px;
+}
+
+.client_section_2{
+     width: 100%;
+     float: left;
+}
+
+.icon_4 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+select{
+     width: 100%;
+     padding-bottom: 20px;    
+}
+
+textarea{
+    margin-top: 20px;
+}
+/*==============Finish Contact===========*/
+/* <!--Start Clients--> */
+
+.row{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer_section{
+    background-color:#8929cf;
+    display: flex;
+    justify-content: center;
+     text-align: center;
+}
+
+.container{
+    width: 100%;
+    margin-left: 2px;
+}
+
+.footer_section .input-group{
+    width: 45%;
+    padding-top: 60px;
+    margin-left: 250px;
+}
+
+.input-group-text{
+    font-weight: bold;
+    background-color: cadetblue;
+    color: maroon;
+    border: 1px solid maroon;
+    border-radius: 25px;
+}
+
+
+.year_text{
+    width: 100%;
+    float: left;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    color: #fefeff;    
+}
+
+
+.landing_text{
+    width: 100%;
+    float: left;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    color: #fefeff;
+}
+
+.social_icon {
+   width: 27%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.social_icon ul{
+    margin: 0px;
+    padding: 0px; 
+    list-style-type: none;
+}
+
+.social_icon li{
+    float: left;
+    padding: 40px 10px 10px 10px;
+}
+
+
+
+.copyright_section{
+    width: 90%;
+    float: left;
+    background-color: #fff;
+}
+
+.copyright_text{
+    text-align: center;
+    color: #040404;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.copyright a {
+    color: #040404;
+}
+/* <!--Finish Clients--> */
+}
+
+/*========Medium Screen===============*/
+@media(max-width:992px){
+ 
+    .footer_section .container{
+        width: 90%;
+        margin-left: 10px;
+    }
+
+
+
+
+/*==============Start Contact===========*/
+.contact_section{
+    width: 100%;
+    font-size: 20px;
+    margin: auto;
+    float: left;
+}
+
+.contact_main{
+    float: left;
+    background-color: #4323b1;
+    height: auto;
+    padding: 40px;
+    width: 70%;
+    margin-left: 50px;
+}
+
+.contact_text {
+   width: 100%;
+   float: left;
+   margin-left: -15px;
+   font-size: 25px;
+   text-align: center;
+   color: #282828;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+
+.nice-select {
+   width: 100%;
+   margin-bottom: 20px;
+   font-size: 16px;
+   font-weight: 400;
+   color: #807e7e;
+   padding-left: 15px;
+}
+
+.contact_bg {
+   width: 40%;
+   margin-right: 40px;
+   float: right;
+   position: absolute;
+   right: 160px;
+   padding-top: 50px;
+}
+
+/*Footer*/
+.social_icon {
+    width: 35%;
+ }
+}
+
+
+/*==========Small Screen================*/
+@media(max-width:768px) {
+
+    /*==================Start header===========*/
+    .container-fluid{
+    }
+    .navbar {
+        background-color: white;
+    }
+    
+    .navbar .navbar-brand{
+        color: black;
+    }
+    
+    .navbar .navbar-brand img{
+        width: 40%;
+    }
+    
+    .navbar li .nav-link{
+        display: none;
+    }
+    
+    .navbar li .nav-link:hover{
+        color: navy;
+    }
+    
+    .navbar-brand img{
+        margin-left: 220px;
+        padding-top: 20px;
+    }
+    /*finish============== header*/
+    /*============Start Slider====*/
+    #home .slider{
+        width: 100%;
+        height: 75vh;
+        background-image: url(../imegs/p22.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+    
+    #home .slider .carousel-inner {
+      position: relative;
+      display: inline-block;
+      justify-content: center;
+      text-align: center;
+      top: 200px;
+      color: white;
+    }
+    
+    #home .slider .carousel-inner .btn{
+     margin: 0px 5px;
+     border: 1px solid white;
+     background-color: white;
+     color: darkblue;
+     width: 20%;
+     height: 20%;
+     font-weight: bold;
+     font-style: italic;
+    }
+    
+    #home .slider .carousel-inner .btn:hover{
+        color: white;
+        background-color: darkred;
+    }
+    /*============Finish Slider====*/
+    
+    /* <!-- Start About --> */
+    #about{
+        width: 90%;
+        height: 100vh;
+        margin: auto;
+    }
+    #about .text-center img{
+        width:39%;
+        background-size:cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    
+    
+    #about .text-center .btn{
+        margin: 0px 5px;
+        border: 1px solid blueviolet;
+        border-radius: 10px;
+        background-color:blueviolet;
+        color: white;
+        width: 20%;
+        height: 25%;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    #about .text-center .btn:hover{
+        background-color: black;
+        color: white;
+    }
+    /* <!-- Finish About --> */
+    /* <!-- Start SERVICES --> */
+    #SERVICES{
+        width: 90%;
+        height: 50%;
+        background-color:seashell;
+        margin: auto;
+    }
+    
+    #SERVICES .text-center{
+      padding-top: 25px;
+    }
+    
+    
+    .perant{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .child{
+        display: inline-block;
+        width: 30%;
+        padding-bottom: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    
+    
+    .perant .child .text-center{
+        margin-top: 50px;
+    } 
+    /* <!-- Finish SERVICES --> */
+    
+    
+    /*==============Start Contact===========*/
+    
+    .contact_section{
+        width: 100%;
+        margin: auto;
+        float: left;
+    }
+    
+    .contact_main{
+        float:left;
+        background-color: #4323b1;
+        height: auto;
+        padding: 40px;
+        width: 100%;
+        margin-left: 180px;
+    }
+    
+    .contact_text {
+       width: 100%;
+       float: left;
+       margin-left: 180px;
+       font-size: 25px;
+       text-align: center;
+       color: #282828;
+       font-weight: bold;
+       text-transform: uppercase;
+    }
+    
+    .mail_text {
+       width: 100%;
+       float: left;
+       font-size: 16px;
+       color: #807e7e;
+       background-color: #ffffff;
+       padding: 10px 15px;
+       margin-bottom: 20px;
+       border: 0px;
+    }
+    
+    .massage_text {
+       width: 100%;
+       float: left;
+       font-size: 16px;
+       color: #807e7e;
+       background-color: #ffffff;
+       padding: 35px 15px 0px 15px;
+       margin-bottom: 20px;
+       border: 0px;
+       height: 100px;
+    }
+    
+    .send_bt {
+       width: 30%;
+       margin: 0 auto;
+       text-align: center;
+    }
+    
+    .send_text {
+       width: 100%;
+       float: left;
+    }
+    
+    .send_text a:hover {
+       color: #000;
+       background-color: #ffffff;
+    }
+    .send_text a {
+       width: 100%;
+       float: left;
+       text-align: center;
+       font-size: 18px;
+       color: #ffffff;
+       background-color: #8929cf;
+       padding: 10px 0px;
+       margin-top: 40px;
+    }
+    
+    .nice-select {
+       width: 100%;
+       margin-bottom: 20px;
+       font-size: 16px;
+       font-weight: 400;
+       color: #807e7e;
+       padding-left: 15px;
+    }
+    
+    .contact_bg {
+       width: 10px;
+       /* float: left; */
+       padding-top: 50px;
+       display: none;
+    }
+    
+    .client_section{
+        width: 100%;
+        float: left;
+    }
+    
+    .client_text{
+        width: 100%;
+        float: left;
+        font-size: 26px;
+        text-align: center;
+        color: #282828;
+        font-style: italic;
+    }
+    
+    
+    .ipsum_text_2 {
+        width: 65%;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #030000;
+        text-align: center;
+        font-style: italic;
+        padding-top: 60px;
+    }
+    
+    .client_section_2{
+         width: 100%;
+         float: left;
+    }
+    
+    .icon_4 {
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding-top: 40px;
+    }
+    
+    
+    select{
+         width: 100%;
+         padding-bottom: 20px;    
+    }
+    
+    textarea{
+        margin-top: 20px;
+    }
+    /*==============Finish Contact===========*/
+    /* <!--Start Clients--> */
+    
+    .row{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .footer_section{
+        background-color:#8929cf;
+        display: flex;
+        justify-content: center;
+         text-align: center;
+    }
+    
+    .container{
+        width: 100%;
+        margin-left: 2px;
+    }
+    
+    .footer_section .input-group{
+        width: 70%;
+        padding-top: 60px;
+        margin-left: 100px;
+    }
+    
+    .input-group-text{
+        font-weight: bold;
+        background-color: cadetblue;
+        color: maroon;
+        border: 1px solid maroon;
+        border-radius: 25px;
+    }
+    
+    
+    .year_text{
+        width: 100%;
+        float: left;
+        font-size: 36px;
+        text-align: center;
+        font-weight: bold;
+        color: #fefeff;    
+    }
+    
+    
+    .landing_text{
+        width: 100%;
+        float: left;
+        font-size: 36px;
+        text-align: center;
+        font-weight: bold;
+        color: #fefeff;
+    }
+    
+    .social_icon {
+       width: 50%;
+       margin: 0 auto;
+       text-align: center;
+    }
+    
+    .social_icon ul{
+        margin: 0px;
+        padding: 0px; 
+        list-style-type: none;
+    }
+    
+    .social_icon li{
+        float: left;
+        padding: 40px 10px 10px 10px;
+    }
+    
+    
+    
+    .copyright_section{
+        width: 90%;
+        float: left;
+        background-color: #fff;
+    }
+    
+    .copyright_text{
+        text-align: center;
+        color: #040404;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .copyright a {
+        color: #040404;
+    }
+    /* <!--Finish Clients--> */
+    }
+
+
+
+/*==========Mobil Screen============*/
+@media(max-width:600px) {
+
+    /*==================Start header===========*/
+
+    .navbar {
+        background-color: white;
+    }
+    
+    .navbar .navbar-brand{
+        color: black;
+    }
+    
+    .navbar .navbar-brand img{
+        width: 40%;
+    }
+    
+    .navbar li .nav-link{
+        display: none;
+    }
+    
+    .navbar li .nav-link:hover{
+        color: navy;
+    }
+    
+    .navbar-brand img{
+        margin-left: 10px;
+        padding-top: 20px; 
+    }
+    /*finish============== header*/
+    /*============Start Slider====*/
+    #home .slider{
+        width: 100%;
+        height: 75vh;
+        background-image: url(../imegs/p22.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+    
+    #home .slider .carousel-inner {
+      position: relative;
+      display: inline-block;
+      justify-content: center;
+      text-align: center;
+      top: 200px;
+      color: white;
+    }
+    
+    #home .slider .carousel-inner .btn{
+     margin: 0px 5px;
+     border: 1px solid white;
+     background-color: white;
+     color: darkblue;
+     width: 40%;
+     height: 20%;
+     font-weight: bold;
+     font-style: italic;
+    }
+    
+    #home .slider .carousel-inner .btn:hover{
+        color: white;
+        background-color: darkred;
+    }
+    /*============Finish Slider====*/
+    
+    /* <!-- Start About --> */
+    #about{
+        width: 90%;
+        height: 100vh;
+        margin: auto;
+    }
+    #about .text-center img{
+        width:39%;
+        background-size:cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    
+    
+    #about .text-center .btn{
+        margin: 0px 5px;
+        border: 1px solid blueviolet;
+        border-radius: 10px;
+        background-color:blueviolet;
+        color: white;
+        width: 40%;
+        height: 25%;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    #about .text-center .btn:hover{
+        background-color: black;
+        color: white;
+    }
+    /* <!-- Finish About --> */
+    /* <!-- Start SERVICES --> */
+    #SERVICES{
+        width: 100%;
+        height: 50%;
+        background-color:seashell;
+        margin: auto;
+    }
+    
+    #SERVICES .text-center{
+      padding-top: 50px;
+    }
+    
+    
+    .perant{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+
+    .child{
+        display: inline-block;
+        width: 30%;
+        padding-bottom: 10px;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .perant .child .text-center{
+        margin-top: 10px;
+    }
+    
+    .gool{
+        font-size: 15px;
+    }
+    
+    .child p{
+        font-size: 10px;
+    }
+
+    .child img{
+        width: 50%;
+    }
+
+
+    /* <!-- Finish SERVICES --> */
+    
+    
+    /*==============Start Contact===========*/
+    .contact_section{
+        width: 100%;
+        margin: auto;
+        float: left;
+        /* display: none; */
+    }
+    
+    .contact_main{
+        float:left;
+        background-color: #4323b1;
+        height: auto;
+        padding: 25px;
+        width: 100%;
+        margin-left: auto;
+    }
+    
+    .contact_text {
+       width: 100%;
+       float: left;
+       font-size: 25px;
+       text-align: center;
+       color: #282828;
+       font-weight: bold;
+       text-transform: uppercase;
+       margin-left: auto;
+       /* display: none; */
+    }
+ 
+    /*==============Finish Contact===========*/
+    /* <!--Start Clients--> */
+    
+
+    
+    .social_icon {
+       width: 100%;
+       margin: 0 auto;
+       text-align: center;
+    }
+    
+ 
+    /* <!--Finish Clients--> */
+
+
+ /*=========Footer========*/   
+.footer_section .input-group{
+    width: 80%;
+    padding-top: 60px;
+    margin-left: 50px;
+}
+    }
